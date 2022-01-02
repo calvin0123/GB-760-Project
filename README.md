@@ -1,4 +1,4 @@
-# GB-760-Project
+# Twitter-Trendiness-Score-Analysis (GB-760-Project)
 
 *This project was conducted by Calvin Chen, Daniel Hom, Duc Le, Lucius Liu, Vitchuda Poonyakanok, and Yuyang Xie in University of Wisconsin-Madison, Wisconsin School of Business in 2021*
 
