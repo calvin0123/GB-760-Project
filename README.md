@@ -10,7 +10,7 @@ Watch our *[Demo Video!](https://www.youtube.com/watch?v=RsZ3ixB_C6Q)
 
 ## Milestone 1
 
-* [**server.py**](server.py) - Read tweets from the Twitter API and write tweets to a .txt file
+* [**server.py**](Milestone1/server.py) - Read tweets from the Twitter API and write tweets to a .txt file
 
 * [**word_count.py**](word_count.py) - Compute frequencies of words and phrases
 ```
