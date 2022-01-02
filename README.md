@@ -52,6 +52,6 @@ For this milestone, we will continue read tweets from the Twitter API and write 
   * Run [**trendiness_socre_kafka.py**](Milestone3/trendness_score_kafka.py) - As long as this code runs, at each new minute, it should print the most up-to-date trendiness score
   
   ```
-  python3 trendiness_kafka.py -w -"input your word or phrase"
+  python3 trendness_score_kafka.py -w -"input your word or phrase"
   ```
 
