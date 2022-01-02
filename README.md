@@ -28,7 +28,7 @@ For this milestone, we will continue read tweets from the Twitter API and write 
 
 * [**schema_postgres.sql**](Milestone2/schema_postgres.sql) - Create schema table to input data from the sample stream
 
-![](Milestone2/database_sample.png | width="100")
+![](Milestone2/database_sample.png)
 
 * [**word_count_postgres.py**](Milestone2/word_count_postgres.py) - Compute frequencies of words and phrases
 ```
