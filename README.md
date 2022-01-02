@@ -26,7 +26,8 @@ python3 vocabulary_size.py
 
 For this milestone, we will continue read tweets from the Twitter API and write them to the database using python.
 
-* [**schema_postgres.sql**](Milestone2/schema_postgres.sql) - Create schema table to input data from the sample stream
+* [**schema_postgres.sql**](Milestone2/schema_postgres.sql) - Design a data warehouse to store infromation required to comput the most current trendiness score. Construct the tables under this schema. 
+* [**server_postgres.py**](Milestone2/server_postgres.py) - Read tweets from the Twitter API and write tweets to a PostgreSQL database.
 
 ![](Milestone2/database_sample.png)
 
