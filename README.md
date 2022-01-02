@@ -28,7 +28,7 @@ For this milestone, we will continue read tweets from the Twitter API and write 
 
 * [**schema_postgres.sql**](Milestone2/schema_postgres.sql) - Create schema table to input data from the sample stream
 
-![](Milestone2/database_sample.png){width="50"}
+![](Milestone2/database_sample.png | width="100")
 
 * [**word_count_postgres.py**](Milestone2/word_count_postgres.py) - Compute frequencies of words and phrases
 ```
@@ -48,7 +48,7 @@ For this milestone, we will continue read tweets from the Twitter API and write 
   * Create Topics in your terminal: `~/kafka/bin/kafka-topics.sh --create --topic gb760 --bootstrap-server localhost:9092 --partitions 1 --replication-factor 1`
   * Run [**server_to_kafka.py**](Milestone3/server_to_kafka.py) - Create producers to read the tweets from the twitter Api and read the tweets to kafka
   * Run [**server_from_kafka.py**](Milestone3/server_from_kafka.py) - Create consumers and use Psycoph to connect database
-  * Run [**trendness_socre_kafka.py**](Milestone3/trendness_score_kafka.py) - As long as this code runs, at each new minute, it should print the most up-to-date trendiness score
+  * Run [**trendiness_socre_kafka.py**](Milestone3/trendness_score_kafka.py) - As long as this code runs, at each new minute, it should print the most up-to-date trendiness score
   
   ```
   python trendiness_kafka.py -w -"input your word or phrase"
